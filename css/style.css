@@ -19,6 +19,10 @@
     font-size: 1.4rem;
 }
 
+.nav-item .active {
+    color: #242ebd!important;
+}
+
 .navContactButton {
     width: 110px;
     height: 40px;
@@ -66,7 +70,6 @@
 
 #about {
     padding-top: 50px;
-    /* height: 100vh; */
 }
 
 #about .aboutContent {
@@ -108,6 +111,70 @@
     width: 100%;
 }
 
+#portfolio .visitSiteButton {
+    height: 50px;
+    width: 120px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+
+
 #contact {
     height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    background: url("./../img/contactPage.jpg");
+    background-position: bottom!important;
+    /* background-color: tomato; */
+}
+#contact .title {
+    padding-top: 100px;
+    /* padding-bottom: 60px; */
+}
+#contact .submitButton{
+    height: 50px;
+    width: 120px;
+    font-size: 1rem;
+    /* margin-top: 20px; */
+}
+
+#contact .contact-form .form-field {
+  margin: 32px 0;
+}
+
+#contact .contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+#contact .contact-form .input-text:focus {
+  outline: none!important;
+}
+
+#contact .contact-form .input-text:focus + .label,
+#contact .contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+
+#contact .contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #888;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
 }
