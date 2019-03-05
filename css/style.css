@@ -71,16 +71,24 @@
 
 #about .aboutContent {
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-#about .stack {
+
+
+
+#skills {
+    padding-top: 50px;
+}
+
+#skills .stack {
     padding-top: 60px;
     justify-content: center;
     padding-bottom: 60px;
 }
 
-#about img {
-    width: 90%;
+#skills img {
+    width: 60%;
 }
 
 

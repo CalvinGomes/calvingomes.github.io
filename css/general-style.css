@@ -22,7 +22,8 @@ body {
 }
 
 .button {
-    background-image: linear-gradient( to left, #25aae1, #40d9e4, #40d9e4, #25aae1);
+    background-image: linear-gradient( to left, #4193f0, #343ecc, #1455cc, #4193f0);
+    /* background-image: linear-gradient( to left, #25aae1, #40d9e4, #40d9e4, #25aae1); */
     font-weight: 600;
     color: #fff;
     cursor: pointer;
@@ -42,7 +43,7 @@ body {
     -o-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    box-shadow: 0 0px 15px 0 rgba(37, 170, 225, 0.75);
+    box-shadow: 0 0px 15px 0 rgba(37, 81, 225, 0.945);
 }
 
 .button:focus {
