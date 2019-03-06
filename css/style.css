@@ -1,16 +1,6 @@
 .navbar {
     background-color: rgba(255, 255, 255, 0.9)!important;
     text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.navbar-brand {
-    font-size: 1.8rem;
-}
-
-.navbar-nav {
-    margin-left: 40px;
 }
 
 .nav-link {
@@ -22,14 +12,6 @@
 .nav-item .active {
     color: #242ebd!important;
 }
-
-.navContactButton {
-    width: 110px;
-    height: 40px;
-    font-size: 0.8rem;
-}
-
-
 
 .home{
     box-shadow: 0px 0px 0px 0px ;
@@ -66,28 +48,8 @@
     font-size: 1rem;
 }
 
-
-
-#about {
-    padding-top: 50px;
-}
-
-#about .aboutContent {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-
-
-
-#skills {
-    padding-top: 50px;
-}
-
 #skills .stack {
-    padding-top: 60px;
     justify-content: center;
-    padding-bottom: 60px;
 }
 
 #skills img {
@@ -95,49 +57,14 @@
 }
 
 
-
-#portfolio {
-    padding-top: 60px;
-}
-
-#portfolio .portfolioContent {
-    padding-top: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 40px;
-}
-
 #portfolio img {
     width: 100%;
-}
-
-#portfolio .visitSiteButton {
-    height: 50px;
-    width: 120px;
-    font-size: 1rem;
-    margin-top: 20px;
 }
 
 
 
 #contact {
-    height: 100vh;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 60px;
     background: url("./../img/contactPage.jpg");
-    background-position: bottom!important;
-    /* background-color: tomato; */
-}
-#contact .title {
-    padding-top: 100px;
-    /* padding-bottom: 60px; */
-}
-#contact .submitButton{
-    height: 50px;
-    width: 120px;
-    font-size: 1rem;
-    /* margin-top: 20px; */
 }
 
 #contact .contact-form .form-field {
@@ -145,14 +72,13 @@
 }
 
 #contact .contact-form .input-text {
-  display: block;
+  /* display: block; */
   width: 100%;
-  height: 36px;
+  height: 40px;
   border-width: 0 0 2px 0;
   border-color: #000;
   font-size: 18px;
-  line-height: 26px;
-  font-weight: 400;
+  background-color: transparent;
 }
 
 #contact .contact-form .input-text:focus {
@@ -170,11 +96,182 @@
   left: 20px;
   bottom: 11px;
   font-size: 18px;
-  line-height: 26px;
-  font-weight: 400;
   color: #888;
   cursor: text;
   transition: -webkit-transform .2s ease-in-out;
   transition: transform .2s ease-in-out;
   transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 35px;
+}
+
+/* MOBILE PHONES */
+@media only screen and (max-width: 767px) {
+
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+
+    #about {
+        padding-top: 50px;
+    }
+
+    #about .aboutContent {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    #about .aboutContent h4{
+        font-size: 1.1rem;
+    } 
+
+    #skills {
+        padding-top: 50px;
+    }
+     
+    #skills h3{
+        font-size: 1.5rem;
+    }
+
+    #skills .stack {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    #portfolio {
+        padding-top: 50px;
+    }
+
+    #portfolio h1{
+        padding-bottom: 10px;
+    }
+
+    #portfolio .portfolioContent h4{
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+
+    #portfolio .portfolioContent {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #portfolio .visitSiteButton {
+        height: 45px;
+        width: 100px;
+        font-size: 0.9rem;
+        margin-top: 20px;
+    }
+
+
+    #contact {
+        height: 90vh;
+        padding-bottom: 60px;
+        background-position: center!important;
+    }
+
+    #contact .submitButton{
+        height: 45px;
+        width: 100px;
+        font-size: 0.85rem;
+    }
+
+    footer {
+        font-size: 0.85rem;
+    }
+
+
+
+}
+
+/* PCs */
+@media only screen and (min-width: 768px) {
+
+    .navbar {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .navbar-brand {
+        font-size: 1.8rem;
+    }
+
+    .navbar-nav {
+        margin-left: 40px;
+    }
+
+    .navContactButton {
+        width: 110px;
+        height: 40px;
+        font-size: 0.8rem;
+    }
+
+
+    #about {
+        padding-top: 50px;
+    }
+
+    #about .aboutContent {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    #skills {
+        padding-top: 50px;
+    }
+
+    #skills .stack {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    #portfolio {
+        padding-top: 60px;
+    }
+
+    #portfolio h1{
+        padding-bottom: 20px;
+    }
+
+    #portfolio .portfolioContent {
+        padding-top: 40px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #portfolio .visitSiteButton {
+        height: 50px;
+        width: 120px;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+
+
+    #contact {
+        height: 100vh;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 60px;
+        background-position: bottom!important;
+    }
+
+    #contact .title {
+        padding-top: 100px;
+    }
+
+    #contact .submitButton{
+        height: 50px;
+        width: 120px;
+        font-size: 1rem;
+    }
 }

@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>C a l v i n&nbsp;&nbsp;&nbsp;G o m e s</title>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
@@ -11,7 +13,7 @@
     <link href="./css/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="10">
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
 
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <a class="navbar-brand" href="#">Calvin Gomes</a>
@@ -35,10 +37,10 @@
                     <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact"></a>
+                    <a class="nav-link d-lg-none" href="#contact">Contact Me</a>
                 </li>
             </ul>
-            <a href="#contact" class="buttons">
+            <a href="#contact" class="buttons d-none d-xs-none d-sm-none d-md-none d-lg-block">
                 <button class="button navContactButton">Contact Me</button>
             </a>
         </div>
@@ -60,7 +62,8 @@
         <section class="vertical-align">
             <h1 class="title">About Me</h1>
             <section class="container aboutContent vertical-align">
-                <h4>Tired of all the Monotonous Web Designs?
+                <h4 class="d-none d-xs-none d-sm-none d-md-block d-lg-block">
+                    Tired of all the Monotonous Web Designs?
                     </br></br>Then trust me You clicked the right set of Buttons.
                     </br></br>This is me Calvin Gomes,
                     <br>A techie with an exquisite passion for Web Designing.
@@ -68,6 +71,18 @@
                     <br>Lets take Web Designing to a whole new level.
                     <br><br>Being a Jovial and Adventure loving Guy, I wont hesitate to try out
                     <br>Bold and Unique Designs to meet your Expectations.
+                    <br><br>I am a little bit of a Perfectionist but come on! We need it.
+                    <br><br>If you think We could make a really good team, you can find me at</h4>
+
+                <h4 class="d-block d-xs-block d-sm-block d-md-none d-lg-none">
+                    Tired of all the Monotonous Web Designs?
+                    </br></br>Then trust me You clicked the right set of Buttons.
+                    </br></br>This is me Calvin Gomes,
+                    A techie with an exquisite passion for Web Designing.
+                    <br><br>Like a breath of fresh air, With Creativity, Elegance and Vibrant colors
+                    Lets take Web Designing to a whole new level.
+                    <br><br>Being a Jovial and Adventure loving Guy, I wont hesitate to try out
+                    Bold and Unique Designs to meet your Expectations.
                     <br><br>I am a little bit of a Perfectionist but come on! We need it.
                     <br><br>If you think We could make a really good team, you can find me at</h4>
             </section>
@@ -102,42 +117,48 @@
             <h1 class="title">My Portfolio</h1>
 
             <section class="row portfolioContent">
+                <section
+                    class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pic d-block d-xs-block d-sm-block d-md-none d-lg-none">
+                    <img src="./img/fenestraLayout.png" alt="">
+                </section>
                 <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contents vertical-align text-align-center">
-                    <h4>A simple symposium website that has potrayed the wide use of colors or watevr fuck !!!</h4>
+                    <h4>A simple symposium website that has potrayed the wide use of colors or watevr...</h4>
                     <a href="http://phoenicorn.com/fenestra/" class="buttons">
                         <button class="button visitSiteButton">Visit site</button>
                     </a>
                 </section>
-                <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pic">
+                <section
+                    class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pic d-none d-xs-none d-sm-none d-md-block d-lg-block">
                     <img src="./img/fenestraLayout.png" alt="">
                 </section>
             </section>
 
             <section class="row portfolioContent">
                 <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pic">
-                    <img src="./img/layout.png" alt="">
+                    <img src="./img/fenestraLayout.png" alt="">
                 </section>
-                <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contents vertical-align">
-                    <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sint soluta mollitia aut</h4>
-                    <h4>praesentium, eos nisi voluptate rerum, laboriosam deserunt sed laborum exercitationem</h4>
-                    <h4>voluptatem nihil consequatur dignissimos, impedit atque! Assumenda.</h4>
-                    <a href="#" class="buttons">
+                <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contents vertical-align text-align-center">
+                    <h4>A simple symposium website that has potrayed the wide use of colors or watevr...</h4>
+                    <a href="http://phoenicorn.com/fenestra/" class="buttons">
                         <button class="button visitSiteButton">Visit site</button>
                     </a>
                 </section>
             </section>
 
             <section class="row portfolioContent">
-                <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contents vertical-align">
-                    <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sint soluta mollitia aut</h4>
-                    <h4>praesentium, eos nisi voluptate rerum, laboriosam deserunt sed laborum exercitationem</h4>
-                    <h4>voluptatem nihil consequatur dignissimos, impedit atque! Assumenda.</h4>
-                    <a href="#" class="buttons">
+                <section
+                    class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pic d-block d-xs-block d-sm-block d-md-none d-lg-none">
+                    <img src="./img/fenestraLayout.png" alt="">
+                </section>
+                <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contents vertical-align text-align-center">
+                    <h4>A simple symposium website that has potrayed the wide use of colors or watevr...</h4>
+                    <a href="http://phoenicorn.com/fenestra/" class="buttons">
                         <button class="button visitSiteButton">Visit site</button>
                     </a>
                 </section>
-                <section class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pic">
-                    <img src="./img/layout.png" alt="">
+                <section
+                    class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pic d-none d-xs-none d-sm-none d-md-block d-lg-block">
+                    <img src="./img/fenestraLayout.png" alt="">
                 </section>
             </section>
 
@@ -168,6 +189,10 @@
             </form>
         </section>
     </section>
+
+    <footer class="vertical-align">
+        Designed with Love and Code by Calvin Gomes
+    </footer>
 
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
