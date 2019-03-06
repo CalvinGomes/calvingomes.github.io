@@ -24,7 +24,6 @@
 }
 
 
-
 #landingPage {
     background: url("./../img/landingPage.jpg");
     height: 91vh;
@@ -32,6 +31,11 @@
 
 #landingPage .row{
     height: inherit;
+}
+
+#landingPage .landingContent{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
 }
 
 #landingPage .landingContent h1{
@@ -57,14 +61,20 @@
 }
 
 
-#portfolio img {
-    width: 100%;
+#about i{
+    margin-top: 20px;
+    padding: 20px 20px 0px 20px;
+    font-size: 40px;
 }
-
-
 
 #contact {
     background: url("./../img/contactPage.jpg");
+    width: 100vw;
+    margin: 0px;
+}
+
+#contact .get-in-touch{
+    padding: 0px;
 }
 
 #contact .contact-form .form-field {
@@ -112,8 +122,14 @@ footer {
 /* MOBILE PHONES */
 @media only screen and (max-width: 767px) {
 
+
     .navbar-brand {
         font-size: 1.3rem;
+    }
+
+
+    .button {
+        box-shadow: 0 0px 15px 0 rgba(37, 81, 225, 0.945);
     }
 
 
@@ -146,10 +162,23 @@ footer {
 
     #portfolio {
         padding-top: 50px;
+        width: 100vw;
+        overflow-x: hidden;
     }
 
     #portfolio h1{
         padding-bottom: 10px;
+    }
+
+    #portfolio .pics {
+        display: flex!important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #portfolio img {
+        width: 90%;
     }
 
     #portfolio .portfolioContent h4{
@@ -160,8 +189,9 @@ footer {
     #portfolio .portfolioContent {
         padding-top: 20px;
         padding-bottom: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
+        margin: 0px;
+        /* padding-left: 40px; */
+        /* padding-right: 40px; */
     }
 
     #portfolio .visitSiteButton {
@@ -173,9 +203,11 @@ footer {
 
 
     #contact {
-        height: 90vh;
+        background: url("./../img/contactPageMob.jpg");
+        min-height: 90vh;
         padding-bottom: 60px;
         background-position: center!important;
+
     }
 
     #contact .submitButton{
@@ -241,6 +273,10 @@ footer {
 
     #portfolio h1{
         padding-bottom: 20px;
+    }
+
+    #portfolio img {
+        width: 100%;
     }
 
     #portfolio .portfolioContent {

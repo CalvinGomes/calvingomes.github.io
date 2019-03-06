@@ -4,7 +4,7 @@ $('document').ready(function () {
         $(window).scroll(function() {    
             var scroll = $(window).scrollTop();
         
-            if (scroll >= 10) {
+            if (scroll >= 1) {
                 $(".navbar").addClass("notHome").removeClass("home");
             } else {
                 $(".navbar").removeClass("notHome").addClass("home");

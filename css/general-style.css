@@ -1,7 +1,5 @@
 body {
-    padding: 0px;
-    margin-bottom: 0px;
-    overflow-x: hidden;
+    overflow-x: hidden!important;
 }
 
 .vertical-align{
@@ -47,6 +45,7 @@ body {
     -o-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+    margin: 10px 10px 10px 10px;
 }
 
 .button:hover {
